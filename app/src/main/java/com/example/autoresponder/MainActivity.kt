@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppRoot() {
     val context = LocalContext.current
